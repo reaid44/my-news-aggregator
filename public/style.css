@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px; }
+header { text-align: center; margin-bottom: 30px; }
+#news-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
+.news-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; }
+.source { background: #ff4757; color: white; padding: 3px 8px; font-size: 12px; border-radius: 4px; width: fit-content; }
+.news-card h2 { font-size: 18px; margin: 10px 0; color: #333; }
+.news-card p { font-size: 14px; color: #666; line-height: 1.5; }
+.news-card a { color: #1e90ff; text-decoration: none; font-weight: bold; margin-top: 10px; display: inline-block; }
